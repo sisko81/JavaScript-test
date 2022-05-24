@@ -8,4 +8,13 @@ console.log(add7(4));
 
 const multiply = (a, b) => a * b;
 
-console.log(multiply(7, 7))
+console.log(multiply(7, 7));
+
+//Write a function called capitalize that takes a string and returns that string with only the first letter capitalized.
+// Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+
+function capitalizeFirstLetter(str) {
+
+    const capitalized = str
+    return str
+}
