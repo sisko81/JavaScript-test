@@ -15,6 +15,8 @@ console.log(multiply(7, 7));
 
 function capitalizeFirstLetter(str) {
 
-    const capitalized = str
-    return str
+    const capitalized = str.charAt(0).toUpperCase() + str.slice(1)
+    return capitalized
 }
+const result = capitalizeFirstLetter("mariko")
+console.log(result)
