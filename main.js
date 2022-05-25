@@ -19,4 +19,14 @@ function capitalizeFirstLetter(str) {
     return capitalized
 }
 const result = capitalizeFirstLetter("mariko")
-console.log(result)
+console.log(result);
+
+//Write a function called lastLetter that takes a string and returns the very last letter of that string:
+
+function lastLetter(str2) {
+    const last = str2.slice(-1);
+    return last
+}
+
+const result2 = lastLetter("abcd")
+console.log(result2)
